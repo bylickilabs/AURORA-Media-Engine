@@ -1,5 +1,8 @@
 # 🎥 AURORA Media Engine
 
+| [![AURORA Build](https://github.com/bylickilabs/AURORA-Media-Engine/actions/workflows/main.yml/badge.svg)](https://github.com/bylickilabs/AURORA-Media-Engine/actions/workflows/main.yml)|
+|---|
+
 |[![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)](https://www.python.org/)|[![Platform](https://img.shields.io/badge/Platform-Windows-success?logo=windows)](https://www.microsoft.com/)|[![VLC Engine](https://img.shields.io/badge/VLC-Engine-orange?logo=vlc)](https://www.videolan.org/)|[![GitHub Repo](https://img.shields.io/badge/GitHub-AURORA--Media--Engine-lightgrey?logo=github)](https://github.com/bylickilabs)|[![License](https://img.shields.io/badge/License-Closed--Source-important)](#)|
 |---|---|---|---|---|
 
