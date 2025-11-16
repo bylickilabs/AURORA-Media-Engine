@@ -12,8 +12,8 @@
 | <img width="1280" height="640" alt="player" src="https://github.com/user-attachments/assets/1db40e95-0557-4797-8e0d-86049fb53762" /> |
 |---|
 
-| <img width="1000" height="631" alt="image" src="https://github.com/user-attachments/assets/9b02e2ec-8f64-4a22-93d7-9f81d1f864a8" /> |
-|---|
+| <img width="1000" height="631" alt="image" src="https://github.com/user-attachments/assets/9b02e2ec-8f64-4a22-93d7-9f81d1f864a8" /> | <img width="997" height="628" alt="image" src="https://github.com/user-attachments/assets/05ec3c8c-f0ad-4774-8fda-8c999061308f" /> |
+|---|---|
 
 > Designed by Thorsten Bylicki — © BYLICKILABS
 
