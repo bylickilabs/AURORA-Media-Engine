@@ -48,7 +48,11 @@
   - ✔ “Web plugins / VLC scripting interfaces” selected  
   - ✔ libvlc is registered system-wide
 
+<br>
+
 ---
+
+<br>
 
 ### 🔹 Install Python dependencies
 
@@ -89,7 +93,11 @@ python app.py
   - 📝 Optional: SRT subtitle file
   - ▶ Video file
 
+<br>
+
 ---
+
+<br>
 
 > 🛑 Common Installation Problem
 
@@ -108,7 +116,11 @@ python app.py
 
 > Once the application is running, the main interface provides intuitive playback controls.
 
+<br>
+
 ---
+
+<br>
 
 ### ▶️ Opening Media
 
@@ -121,7 +133,11 @@ python app.py
   - 2. Select an `.srt` file  
     - → Subtitles will load automatically
 
+<br>
+
 ---
+
+<br>
 
 ### 🕹 Playback Control
 
@@ -134,7 +150,11 @@ python app.py
 
 > Volume can be adjusted with the **Volume slider** (0–100%).
 
+<br>
+
 ---
+
+<br>
 
 ### 🌍 Language Switching (DE/EN)
 
@@ -143,7 +163,11 @@ python app.py
   - ✔ Playback continues uninterrupted  
   - ✔ No restart required
 
+<br>
+
 ---
+
+<br>
 
 ### 🖥 Fullscreen Mode
 
@@ -157,7 +181,11 @@ python app.py
   - ✔ Playback controls and top bar are hidden  
   - ✔ Only the video is visible
 
+<br>
+
 ---
+
+<br>
 
 ### ℹ Application Information
 
@@ -171,7 +199,11 @@ Includes:
   - GitHub
   - Support Email
 
+<br>
+
 ---
+
+<br>
 
 ### 💡 Quality Tip
 
@@ -181,7 +213,11 @@ Includes:
 
 > Enjoy a modern and focused playback experience with a minimal interface and full control.
 
+<br>
+
 ---
+
+<br>
 
 ## ⚖️ License & Legal Notice
 
@@ -207,7 +243,11 @@ Includes:
 
 > All other dependencies remain the intellectual property of their authors.
 
+<br>
+
 ---
+
+<br>
 
 ### Legal Disclaimer
 
@@ -220,7 +260,11 @@ Includes:
 
 > Any usage is at the user’s own risk.
 
+<br>
+
 ---
+
+<br>
 
 ### Contact
 
