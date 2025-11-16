@@ -9,6 +9,9 @@
 - AURORA Media Engine is a powerful, modern Windows media player built with Python, VLC Engine, and CustomTkinter.  
 - It focuses on high-quality playback of local media files (MP4, MKV) combined with SRT subtitle support, language switching, and a clean fullscreen video mode.
 
+| <img width="1280" height="640" alt="player" src="https://github.com/user-attachments/assets/1db40e95-0557-4797-8e0d-86049fb53762" /> |
+|---|
+
 > Designed by Thorsten Bylicki — © BYLICKILABS
 
 <br>
