@@ -87,19 +87,25 @@ class MediaPlayerApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title(f"{APP_NAME} — v{APP_VERSION}")
+        self.title(f"{APP_NAME} — v{APP_VERSION} | {APP_COMPANY}")
         self.geometry("1000x600")
         self.minsize(800, 450)
 
         self.vlc_instance = vlc.Instance("--no-osd", "--no-video-title-show", "--no-overlay", "--no-fullscreen", "--video-wallpaper", "--verbose=-1", "--quiet")
+        #self.vlc_instance = vlc.Instance("--no-osd", "--no-video-title-show", "--quiet")
+
         self.player = self.vlc_instance.media_player_new()
+
         self.video_path: str | None = None
         self.subtitle_path: str | None = None
+
         self.is_fullscreen = False
         self.prev_geometry: str | None = None
+
         self.top_frame = None
         self.status_frame = None
         self.controls_frame = None
+
         self.btn_open_video = None
         self.btn_open_subtitle = None
         self.btn_play_pause = None
@@ -115,8 +121,9 @@ class MediaPlayerApp(ctk.CTk):
         self.btn_info = None
         self.logo_image = None
         self.video_frame = None
+
         self._build_ui()
-        
+
         self.bind("<Escape>", lambda e: self.exit_fullscreen())
         self.bind("<F>", lambda e: self.toggle_fullscreen())
 
@@ -275,7 +282,7 @@ class MediaPlayerApp(ctk.CTk):
         """Sämtliche UI-Texte und Sprach-Buttons aktualisieren."""
         lang_dict = I18N[LANG]
 
-        self.title(f"{APP_NAME} — v{APP_VERSION}")
+        self.title(f"{APP_NAME} - v{APP_VERSION} | {APP_COMPANY}")
 
         if self.btn_open_video:
             self.btn_open_video.configure(text=lang_dict["open_video"])
@@ -338,6 +345,7 @@ class MediaPlayerApp(ctk.CTk):
         else:
             self.exit_fullscreen()
 
+
     def exit_fullscreen(self):
         """Zurück aus Vollbild – UI wiederherstellen."""
         self.is_fullscreen = False
@@ -373,20 +381,25 @@ class MediaPlayerApp(ctk.CTk):
         if self.prev_geometry:
             self.geometry(self.prev_geometry)
 
+        # Wichtig: Handle wieder korrekt setzen
         self._bind_vlc(self.video_frame)
         self.after(200, lambda: self._bind_vlc(self.video_frame))
 
+
+    # <<< HIER DIESE NEUE FUNKTION EINFÜGEN >>>
     def _bind_vlc(self, frame):
         frame.update_idletasks()
         try:
             self.player.set_hwnd(frame.winfo_id())
-            self.player.video_set_scale(0)
-            self.player.video_set_aspect_ratio("16:9")
+            self.player.video_set_scale(0)  # Vollflächig füllen
+            self.player.video_set_aspect_ratio("16:9")  # Kein grauer Rand mehr
         except Exception:
             pass
 
+
     def _prepare_media(self):
         """Media-Objekt (Video + Untertitel) vorbereiten und an das Video-Frame binden."""
+
 
     def _prepare_media(self):
         """Media-Objekt (Video + Untertitel) vorbereiten und an das Video-Frame binden."""
