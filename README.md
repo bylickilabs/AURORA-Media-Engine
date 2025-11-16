@@ -116,12 +116,6 @@ python app.py
 
 > Once the application is running, the main interface provides intuitive playback controls.
 
-<br>
-
----
-
-<br>
-
 ### ▶️ Opening Media
 
 1. Click **“Open Video”**
